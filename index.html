@@ -3,8 +3,24 @@
   <head>
     <meta charset="UTF-8">
     <title>Rock, paper, scissors!</title>
-    <script src="script.js"></script>
   </head>
   <body>
+    <div class="roundInput">
+      <div class="roundInputText">Playing to:</div>
+      <input type="text" class="roundInputForm" placeholder="Input 1 to 100">
+      <div class="container-warningText"></div>
+    </div>
+    <button class="rock choice" type="button">Rock</button>
+    <button class="paper choice" type="button">Paper</button>
+    <button class="scissors choice" type="button">Scissors</button>
+    <div class="results"></div>
+    <div class="scoreText">
+      You: <div class="human score"></div>
+      <br>
+      Computer: <div class="computer score"></div>
+    </div>
+    <div class="finalResult"></div>
+    <button type="button" class="resetButton" style="display: none;">Reset</button>
   </body>
+  <script src="script.js"></script>
 </html>
