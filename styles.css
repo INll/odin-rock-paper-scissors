@@ -1,0 +1,82 @@
+div.banner {
+  display: flex;
+  justify-content: center;
+  margin: 2% auto;
+  color: white;
+}
+
+div.heading {
+  margin: 0% 3%;
+}
+
+div.italicText {
+  font-style: italic;
+  display: flex;
+  justify-content: flex-start;
+  flex: 1 0 1;
+}
+
+div.aiText {
+  color: red;
+  margin: 0 0 0 5px;
+  font-weight: 700;
+}
+
+/* .humanScore, .computerScore {
+  margin: 3% auto;
+  color: white;
+} */
+
+div.humanScoreText, div.computerScoreText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5% 20%;
+  flex: 0 1 auto;
+  color: white;
+}
+
+div.results {
+  color: white;
+}
+
+div.resultBanner {
+  display: flex;
+  justify-content: center !important;
+  padding: 4%;
+}
+
+/* .loss-bkgd {
+  background-color: #c3073f;
+  transition: background-color 1s cubic-bezier(0.35, 0.63, 0.38, 1);
+}
+
+.win-bkgd {
+  background-color: #07c336;
+  transition: background-color 1s cubic-bezier(0.35, 0.63, 0.38, 1);
+}
+
+.tie-bkgd {
+  background-color: #4d4d4d;
+  transition: background-color 1s cubic-bezier(0.35, 0.63, 0.38, 1);
+} */
+
+div.resultText {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0;
+}
+
+div.buttons {
+  display: flex;
+  margin: 5% 30%;
+  justify-content: center;
+  gap: 5%;
+}
+
+body {
+  background-color: #1a1a1d !important;
+  margin: 0;
+}

@@ -3,21 +3,30 @@
   <head>
     <meta charset="UTF-8">
     <title>Rock, paper, scissors!</title>
+    <link rel="stylesheet" href="./styles.css">
   </head>
   <body>
+    <div class="banner"><div class="heading">ROCK, PAPER, SCISSORS!</div><div class="italicText">(NOW W/ <div class="aiText">AI</div>)</div></div> 
     <div class="roundInput">
       <div class="roundInputText">Playing to:</div>
       <input type="text" class="roundInputForm" placeholder="Input 1 to 100">
       <div class="container-warningText"></div>
     </div>
-    <button class="rock choice" type="button">Rock</button>
-    <button class="paper choice" type="button">Paper</button>
-    <button class="scissors choice" type="button">Scissors</button>
-    <div class="results"></div>
-    <div class="scoreText">
-      You: <div class="human score"></div>
-      <br>
-      Computer: <div class="computer score"></div>
+    <div class="buttons">
+      <button class="rock choice" type="button">Rock</button>
+      <button class="paper choice" type="button">Paper</button>
+      <button class="scissors choice" type="button">Scissors</button>
+    </div>
+    <div class="resultText">
+      <div class="humanScoreText">
+        You: <h1 class="human score">0</h1>
+      </div>
+      <div class="computerScoreText">
+        Computer: <h1 class="computer score">0</h1>
+      </div>
+    </div>
+    <div class="resultBanner">
+      <div class="results"></div>
     </div>
     <div class="finalResult"></div>
     <button type="button" class="resetButton" style="display: none;">Reset</button>
